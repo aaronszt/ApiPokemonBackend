@@ -6,11 +6,17 @@ const { DB_USER, DB_PASSWORD, DB_HOST, DB_NAME, DB_URL } = process.env;
 const PokemonModels = require('./models/Pokemon');
 const TypeModels = require ('./models/Type');
 
-const sequelize = new Sequelize( //instanciamos a sequelize con new, acá estamos conectando al server con la db, en este caso con postgres con las coordenandas de las claves y todo eso. 
+const sequelize = new Sequelize(
    `${DB_URL}`,
    {
-      logging: false, // set to console.log to see the raw SQL queries
-      native: false, // lets Sequelize know we can use pg-native for ~30% more speed
+      logging: false,
+      native: false,
+      dialectOptions: {
+         ssl: {
+            require: true,
+            rejectUnauthorized: false,
+         },
+      },
    }
 );
 const basename = path.basename(__filename);
