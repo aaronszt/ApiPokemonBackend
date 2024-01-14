@@ -18,7 +18,7 @@ server.use(morgan('dev'));
 
 // Use CORS middleware to allow requests from a specific origin
 server.use(cors({
-  origin: 'api-pokemon-zeta.vercel.app',
+  origin: 'api-pokemon-frontend.vercel.app',
   credentials: true,
 }));
 
