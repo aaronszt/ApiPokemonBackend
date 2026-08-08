@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q6pwNEOgEWBQwpBsrsfQmnO7Ds9WkgRCUyInvOZ7XXGCL7rbDOIKcdb4JxFHZJB5dUHPm+cjipSsn8x1n9Q/EQ==",
+  "dgSpecHash": "H1JKdLvOPZzBOBGywhBfYoAB8jeFQrlbfur5OCsqqSEdUKfRnhc7LIdBq9xGjsOY9jKVVE6dKA0Ecic7R7Xxag==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Web\\Pokemon.Web.csproj",
+  "projectFilePath": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Web\\Pokemon.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aaron\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Aaron\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

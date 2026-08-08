@@ -89,3 +89,4 @@ C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Web\obj\Debug\net8.0\refint\
 C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Web\obj\Debug\net8.0\Pokemon.Web.pdb
 C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Web\obj\Debug\net8.0\Pokemon.Web.genruntimeconfig.cache
 C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Web\obj\Debug\net8.0\ref\Pokemon.Web.dll
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Web\obj\Debug\net8.0\Pokemon.Web.sourcelink.json

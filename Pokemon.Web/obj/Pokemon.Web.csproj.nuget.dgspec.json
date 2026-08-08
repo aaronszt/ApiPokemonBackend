@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Web\\Pokemon.Web.csproj": {}
+    "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Web\\Pokemon.Web.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj": {
+    "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj",
         "projectName": "Pokemon.Domain",
-        "projectPath": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj",
+        "projectPath": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj",
         "packagesPath": "C:\\Users\\Aaron\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Infrastructure\\Pokemon.Infrastructure.csproj": {
+    "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Infrastructure\\Pokemon.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Infrastructure\\Pokemon.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Infrastructure\\Pokemon.Infrastructure.csproj",
         "projectName": "Pokemon.Infrastructure",
-        "projectPath": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Infrastructure\\Pokemon.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Infrastructure\\Pokemon.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Aaron\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj": {
-                "projectPath": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj"
+              "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj": {
+                "projectPath": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj"
               }
             }
           }
@@ -130,14 +130,14 @@
         }
       }
     },
-    "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Persistence\\Pokemon.Persistence.csproj": {
+    "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Persistence\\Pokemon.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Persistence\\Pokemon.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Persistence\\Pokemon.Persistence.csproj",
         "projectName": "Pokemon.Persistence",
-        "projectPath": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Persistence\\Pokemon.Persistence.csproj",
+        "projectPath": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Persistence\\Pokemon.Persistence.csproj",
         "packagesPath": "C:\\Users\\Aaron\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,8 +154,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj": {
-                "projectPath": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj"
+              "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj": {
+                "projectPath": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj"
               }
             }
           }
@@ -207,14 +207,14 @@
         }
       }
     },
-    "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Web\\Pokemon.Web.csproj": {
+    "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Web\\Pokemon.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Web\\Pokemon.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Web\\Pokemon.Web.csproj",
         "projectName": "Pokemon.Web",
-        "projectPath": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Web\\Pokemon.Web.csproj",
+        "projectPath": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Web\\Pokemon.Web.csproj",
         "packagesPath": "C:\\Users\\Aaron\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Web\\obj\\",
+        "outputPath": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -231,14 +231,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj": {
-                "projectPath": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj"
+              "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj": {
+                "projectPath": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj"
               },
-              "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Infrastructure\\Pokemon.Infrastructure.csproj": {
-                "projectPath": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Infrastructure\\Pokemon.Infrastructure.csproj"
+              "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Infrastructure\\Pokemon.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Infrastructure\\Pokemon.Infrastructure.csproj"
               },
-              "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Persistence\\Pokemon.Persistence.csproj": {
-                "projectPath": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Persistence\\Pokemon.Persistence.csproj"
+              "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Persistence\\Pokemon.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Persistence\\Pokemon.Persistence.csproj"
               }
             }
           }
