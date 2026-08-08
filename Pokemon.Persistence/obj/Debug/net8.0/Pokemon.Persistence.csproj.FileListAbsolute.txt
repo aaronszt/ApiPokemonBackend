@@ -1,0 +1,17 @@
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\bin\Debug\net8.0\Pokemon.Persistence.deps.json
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\bin\Debug\net8.0\Pokemon.Persistence.runtimeconfig.json
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\bin\Debug\net8.0\Pokemon.Persistence.dll
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\bin\Debug\net8.0\Pokemon.Persistence.pdb
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\bin\Debug\net8.0\Pokemon.Domain.dll
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\bin\Debug\net8.0\Pokemon.Domain.pdb
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\obj\Debug\net8.0\Pokemon.Persistence.csproj.AssemblyReference.cache
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\obj\Debug\net8.0\Pokemon.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\obj\Debug\net8.0\Pokemon.Persistence.AssemblyInfoInputs.cache
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\obj\Debug\net8.0\Pokemon.Persistence.AssemblyInfo.cs
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\obj\Debug\net8.0\Pokemon.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\obj\Debug\net8.0\Pokemon.Persistence.csproj.CopyComplete
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\obj\Debug\net8.0\Pokemon.Persistence.dll
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\obj\Debug\net8.0\refint\Pokemon.Persistence.dll
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\obj\Debug\net8.0\Pokemon.Persistence.pdb
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\obj\Debug\net8.0\Pokemon.Persistence.genruntimeconfig.cache
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\obj\Debug\net8.0\ref\Pokemon.Persistence.dll
