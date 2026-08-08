@@ -90,3 +90,5 @@ C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Web\obj\Debug\net8.0\Pokemon
 C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Web\obj\Debug\net8.0\Pokemon.Web.genruntimeconfig.cache
 C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Web\obj\Debug\net8.0\ref\Pokemon.Web.dll
 C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Web\obj\Debug\net8.0\Pokemon.Web.sourcelink.json
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Web\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Web\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

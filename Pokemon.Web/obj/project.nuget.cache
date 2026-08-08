@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "H1JKdLvOPZzBOBGywhBfYoAB8jeFQrlbfur5OCsqqSEdUKfRnhc7LIdBq9xGjsOY9jKVVE6dKA0Ecic7R7Xxag==",
+  "dgSpecHash": "Q7WW6svhpKnIxh3x4GsN18jR+GBuY6FhMJCndsng1ulmunX0hm+pIT/2sdEHGSPiCM9fSQ11SyUG2PPPSaTZqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Web\\Pokemon.Web.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,8 @@
     "C:\\Users\\Aaron\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\Aaron\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Aaron\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Aaron\\.nuget\\packages\\npgsql\\8.0.6\\npgsql.8.0.6.nupkg.sha512",
+    "C:\\Users\\Aaron\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.11\\npgsql.entityframeworkcore.postgresql.8.0.11.nupkg.sha512",
     "C:\\Users\\Aaron\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Aaron\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Aaron\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
