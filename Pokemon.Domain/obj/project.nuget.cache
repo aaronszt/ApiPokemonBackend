@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HVH3DnfdGxD7Kzw684zreeD7rdCVZzumOfy0qqE/Dm398rbF+ftftGwdYtGrGXlve40BLCWexTvR20/hQzS1lg==",
+  "dgSpecHash": "s9BDVwA3zaI0j19O3PI10a7bT1XUAwU5CglNNNi7BNC082qzESGht/TOJSJC19hKfRQOvuK72fKXLhIW0jXZ0g==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Domain\\Pokemon.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aaron\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
     "C:\\Users\\Aaron\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

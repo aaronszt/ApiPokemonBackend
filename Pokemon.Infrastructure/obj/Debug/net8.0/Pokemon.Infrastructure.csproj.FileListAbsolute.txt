@@ -13,3 +13,4 @@ C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Infrastructure\obj\Debug\net
 C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Infrastructure\obj\Debug\net8.0\refint\Pokemon.Infrastructure.dll
 C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Infrastructure\obj\Debug\net8.0\Pokemon.Infrastructure.pdb
 C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Infrastructure\obj\Debug\net8.0\ref\Pokemon.Infrastructure.dll
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Infrastructure\obj\Debug\net8.0\Pokemon.Infrastructure.sourcelink.json

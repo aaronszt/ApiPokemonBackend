@@ -10,3 +10,4 @@ C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Domain\obj\Debug\net8.0\Poke
 C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Domain\obj\Debug\net8.0\refint\Pokemon.Domain.dll
 C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Domain\obj\Debug\net8.0\Pokemon.Domain.pdb
 C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Domain\obj\Debug\net8.0\ref\Pokemon.Domain.dll
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Domain\obj\Debug\net8.0\Pokemon.Domain.sourcelink.json

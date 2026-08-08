@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8Dpc13wzVM6ExHa3XZ3FErO8539P8Y5/5GrkhmhkONbCZxRlxSr5yuR1Y7mZoosZma96BKANUdVS8JAvZihBPA==",
+  "dgSpecHash": "Zy4cAfH7KzRNBfdHw3EW/SlXXJizt9u706sWJwIolEBDdSCWqGSPQXh966/qeQRsuThtO0KMxKH+Vf3vCtJl1Q==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Persistence\\Pokemon.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\Aaron\\Desktop\\Programacion\\Pokemon\\Pokemon.Persistence\\Pokemon.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aaron\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Aaron\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

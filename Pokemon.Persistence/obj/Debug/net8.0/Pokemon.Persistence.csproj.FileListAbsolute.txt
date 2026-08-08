@@ -15,3 +15,4 @@ C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\obj\Debug\net8.0
 C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\obj\Debug\net8.0\Pokemon.Persistence.pdb
 C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\obj\Debug\net8.0\Pokemon.Persistence.genruntimeconfig.cache
 C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\obj\Debug\net8.0\ref\Pokemon.Persistence.dll
+C:\Users\Aaron\Desktop\Programacion\Pokemon\Pokemon.Persistence\obj\Debug\net8.0\Pokemon.Persistence.sourcelink.json
