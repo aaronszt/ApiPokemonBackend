@@ -1,0 +1,19 @@
+## .NET build outputs
+bin/
+obj/
+
+## Visual Studio files
+.vs/
+*.user
+*.suo
+
+## Local settings (contain credentials)
+appsettings.Local.json
+appsettings.*.local.json
+
+## Rider
+.idea/
+
+## OS
+.DS_Store
+Thumbs.db

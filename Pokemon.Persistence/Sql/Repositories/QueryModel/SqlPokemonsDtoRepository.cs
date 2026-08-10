@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using Pokemon.Domain.QueryModel.Repositories;
 using Pokemon.Domain.QueryModel.Dtos;
 using Pokemon.Persistence.Sql.Models;
@@ -12,12 +13,16 @@ namespace Pokemon.Persistence.Sql.Repositories.QueryModel
 
         public IEnumerable<PokemonsDto> GetAllPokemons()
         {
-            return _context.Pokemonss.Select(p => MapToDto(p)).AsEnumerable();
+            return _context.Pokemonss
+                .Include(p => p.PokemonTypes)
+                .Select(p => MapToDto(p))
+                .AsEnumerable();
         }
 
         public PokemonsDto? GetPokemonById(int id)
         {
             return _context.Pokemonss
+                .Include(p => p.PokemonTypes)
                 .Where(p => p.Id == id)
                 .Select(p => MapToDto(p))
                 .FirstOrDefault();
@@ -26,10 +31,10 @@ namespace Pokemon.Persistence.Sql.Repositories.QueryModel
         public PokemonsDto? GetPokemonByName(string name)
         {
             return _context.Pokemonss
+                .Include(p => p.PokemonTypes)
                 .Where(p => p.Name.ToLower() == name.ToLower())
-                .Select(p =>  MapToDto(p))
+                .Select(p => MapToDto(p))
                 .FirstOrDefault();
-
         }
 
         private static PokemonsDto MapToDto(Pokemones p) => new PokemonsDto

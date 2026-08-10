@@ -8,24 +8,17 @@ namespace Pokemon.Domain.QueryModel.Queries.Pokemons
     public class PokemonListQueryByIdHandler : IRequestHandler<PokemonListQueryById, PokemonsDto>
     {
         private readonly IUnitOfWork _unitOfWork;
-        private readonly IPokeApiService _pokeApiService;
 
-        public PokemonListQueryByIdHandler(IUnitOfWork unitOfWork, IPokeApiService pokeApiService)
+        public PokemonListQueryByIdHandler(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
-            _pokeApiService = pokeApiService;
         }
 
-        public async Task<PokemonsDto> Handle(PokemonListQueryById request, CancellationToken cancellationToken)
+        public Task<PokemonsDto> Handle(PokemonListQueryById request, CancellationToken cancellationToken)
         {
-            var dbPokemon = _unitOfWork.PokemonsDtoRepository.GetPokemonById(request.Id);
-            if (dbPokemon != null) return dbPokemon;
-
-            var apiPokemon = await _pokeApiService.GetPokemonsFromApiAsync();
-            var pokemon = apiPokemon.FirstOrDefault(p => p.Id == request.Id);
+            var pokemon = _unitOfWork.PokemonsDtoRepository.GetPokemonById(request.Id);
             if (pokemon == null) throw new NotFoundException($"No se pudo encontrar al pokemon con ID: {request.Id}");
-
-            return pokemon;
+            return Task.FromResult(pokemon);
         }
     }
 }
