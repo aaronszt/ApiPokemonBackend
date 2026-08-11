@@ -19,6 +19,37 @@ builder.Configuration
     .AddJsonFile("appsettings.Local.json", optional: true, reloadOnChange: true)
     .AddEnvironmentVariables();
 
+static string ResolveConnectionString(IConfiguration configuration, IWebHostEnvironment environment)
+{
+    var connectionString = configuration.GetConnectionString("DefaultConnection");
+
+    var isPlaceholder = string.IsNullOrWhiteSpace(connectionString)
+        || connectionString.Contains("{{", StringComparison.Ordinal);
+
+    var looksLikeSqlServer = !string.IsNullOrWhiteSpace(connectionString)
+        && (connectionString.Contains("MultipleActiveResultSets", StringComparison.OrdinalIgnoreCase)
+            || connectionString.Contains("Initial Catalog", StringComparison.OrdinalIgnoreCase)
+            || connectionString.Contains("Trusted_Connection", StringComparison.OrdinalIgnoreCase));
+
+    const string localPostgres =
+        "Host=localhost;Port=5432;Database=pokemon;Username=postgres;Password=123qwe";
+
+    if (environment.IsDevelopment() && (isPlaceholder || looksLikeSqlServer))
+    {
+        return localPostgres;
+    }
+
+    if (isPlaceholder)
+    {
+        throw new InvalidOperationException(
+            "Connection string not configured. Set ConnectionStrings__DefaultConnection or update appsettings.json.");
+    }
+
+    return connectionString!;
+}
+
+var connectionString = ResolveConnectionString(builder.Configuration, builder.Environment);
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
@@ -31,9 +62,9 @@ builder.Services.AddMediatR(cfg => {
 });
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(connectionString));
 builder.Services.AddDbContext<PokemonDbContext>(option =>
-    option.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    option.UseNpgsql(connectionString));
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
@@ -140,4 +171,4 @@ app.UseCors("AllowFrontend");
 
 app.UseAuthorization();
 app.MapControllers();
-app.Run();
+app.Run();
